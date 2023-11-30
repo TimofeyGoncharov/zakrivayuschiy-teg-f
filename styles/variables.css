@@ -5,8 +5,8 @@
     --text-stroke-color: #000;
     --button-text-color: #00cc14;
   
-    --global-font: "Inter-Variable";
-    --custom-font: "PressStart2P-Regular";
+    --global-font: "Inter-Variable", sans-serif;
+    --custom-font: "PressStart2P-Regular", fantasy;
     --font-weight-title: 785;
     --font-weight-text: 465;
   
