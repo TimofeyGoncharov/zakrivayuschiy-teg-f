@@ -185,7 +185,7 @@ main {
   content: "<experience>";
 }
 
-.card:nth-child(2) .image__block .image {
+/* .card:nth-child(2) .image__block .image {
   filter: saturate(0.3);
 }
 
@@ -211,7 +211,7 @@ main {
 
 .card:nth-child(8) .image__block .image {
   filter: blur(5px) hue-rotate(114deg);
-}
+} */
 
 .card__content {
   display: flex;
@@ -375,6 +375,38 @@ main {
   height: 38px;
   padding: 9px 17px;
   color: var(--accent-color);
+}
+
+.blur-filter {
+  filter: blur(1px);
+}
+
+.invert-filter {
+  filter: invert(100%) hue-rotate(33deg);
+}
+
+.grayscale-filter {
+  filter: grayscale(100%);
+}
+
+.sepia-filter {
+  filter: sepia(100%);
+}
+
+.brightness-filter {
+  filter: brightness(75%);
+}
+
+.contrast-filter {
+  filter: contrast(80%);
+}
+
+.saturate-filter {
+  filter: saturate(20%);
+}
+
+.rgb-shift-filter {
+  filter: hue-rotate(200deg);
 }
 
 @media (width <= 375px) {
