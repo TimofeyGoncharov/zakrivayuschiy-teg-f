@@ -41,7 +41,7 @@
 
 .header__logotip {
   margin-top: 120px;
-  font-size: var(--logo-font-size);
+  font-size: var(--logotip-font-size);
   text-transform: uppercase;
 }
 
