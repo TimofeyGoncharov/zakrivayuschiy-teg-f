@@ -101,7 +101,7 @@
   animation: left-right-underline 0.5s linear;
 }
 
-.main {
+main {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -375,13 +375,6 @@
   height: 38px;
   padding: 9px 17px;
   color: var(--accent-color);
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  padding-block-start: 99px;
 }
 
 @media (width <= 375px) {
