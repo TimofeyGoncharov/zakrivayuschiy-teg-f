@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" >
     <title>Закрывающий тег</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="shortcut icon" href="./svg/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles/themes.css" />
-    <link rel="icon" href="./images/favicon.ico" >
-    <link rel="icon" href="./svg/favicon.svg" >
-    <link rel="icon" href="./images/mobile-icon.png" >
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
-    <header class="header">
-      <div class="header__logotip">&lt;/html&gt;</div>
+    <header class="header flex-container">
+      <a class="header__logotip">&lt;/html&gt;</a>
       <h1 class="header__title">Закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -51,7 +51,8 @@
         <h2 class="card__title">
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
-        <div class="image__block">
+        <div class="card__img-wrapper">
+          <span class="card__img-label">&lt;/HTML&gt;</span>
           <img src="./images/start.jpg" alt="бегун на старте" class="image blur-filter" >
         </div>
         <div class="card__content">
@@ -62,7 +63,7 @@
           </p>
           <p class="text">Яндекс Практикум, для меня всегда был маленькой мечтой... Я очень хотел попасть на это обучение... Знаете как нелегко быть в разработке, писать серверную часть приложения и оказаться на другой стороне WEBa? Жутко некомфортно! Оооооох, но я решился на это! Раньше я думал, что хуже асемблера ничего нет! Я ошибался!) Ворчащий бекендер во фронтенде - это ужасно! Я каждый день думал бросить этот курс, а это только вводная часть была! Благодаря хорошим и добрым кураторам(таким как ХАЗ), классному коллективу, желающему не "вопреки", а "благодаря" идти дальше, я брал себя в руки, особенно, когда в пачке по 20+ сообщений "А как это сделать?"</p>
           <div class="buttons">
-            <button class="card__icon-button">
+            <button type="button" aria-hidden="true" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -91,7 +92,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -99,7 +100,8 @@
       </article>
       <article class="card">
         <h2 class="card__title">1 спринт: Я — чистый лист</h2>
-        <div class="image__block">
+        <div class="card__img-wrapper">
+          <span class="card__img-label">&lt;/HTML&gt;</span>
           <img src="./images/startap.png" alt="книга по стартапу" class="image invert-filter" >
         </div>
         <div class="card__content">
@@ -114,7 +116,7 @@
             1 проект, сейчас понимаю насколько там было просто, но как же я был в гневе от ревью! Антон Щепетков... это мой ревьюер, он такой красавчик, в одном предложении говорит какой я молодец и обсирает одновременно! Спасибо Антон тебе большое, ты крутой!!! 
           </p>
           <div class="buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -143,7 +145,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -151,7 +153,8 @@
       </article>
       <article class="card">
         <h2 class="card__title">1 спринт: А если не получится?</h2>
-        <div class="image__block">
+        <div class="card__img-wrapper">
+          <span class="card__img-label">&lt;CSS&gt;</span>
           <img src="./images/project.png" alt="картинка оно тебе надо" class="image grayscale-filter" >
         </div>
         <div class="card__content">
@@ -164,7 +167,7 @@
             Я постоянно чувствую, будто надо догонять и догонять всех, и эта мысль постоянно меня глушила. Порой какие-то темы прям изучаю взахлеб, кругозор очень сильно увеличивается, не хочется уходить от монитора вообще читать и пытаться, пытаться и читать и так далее. Но выпасть из бытовой жизни нельзя и ты постоянно ждешь, когда ты сядешь за клаивиатуру и монитор. А потом? Приходит понимание - одного монитора мало!!!
           </p>
           <div class="buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -193,7 +196,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -201,7 +204,8 @@
       </article>
       <article class="card">
         <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
-        <div class="image__block">
+        <div class="card__img-wrapper">
+          <span class="card__img-label">&lt;desigions&gt;</span>
           <img src="./images/perfect.png" alt="автобус номер 4" class="image sepia-filter" >
         </div>
         <div class="card__content">
@@ -216,7 +220,7 @@
             Раньше, когда дело доходило до фронта понимал, надо сделать хоть как то, использовал медиа запросы на все!!! А сейчас когда вижу код, который писал 1, 2, 3 года назад становится стыдно (даже не хочется вспоминать что было 5 лет назад). А сейчас понимаю, что я без flex, grid ничего и делать не буду, этого мне хватает, чтобы сделать все!
           </p>
           <div class="buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -245,7 +249,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -253,7 +257,8 @@
       </article>
       <article class="card">
         <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
-        <div class="image__block">
+        <div class="card__img-wrapper">
+          <span class="card__img-label">&lt;care&gt;</span>
           <img src="./images/family.jpg" alt="счастливая семья из 4 человек" class="image brightness-filter" >
         </div>
         <div class="card__content">
@@ -269,7 +274,7 @@
             Сильно споткнулся я, на макет "сложно сосредоточиться". Больше всех меня постоянно поддерживала мой любимая супруга, если бы не она, я вообще бы был никто, но каждый макет она выслушивала и мотивировала меня.
           </p>
           <div class="buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -298,7 +303,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -306,7 +311,8 @@
       </article>
       <article class="card">
         <h2 class="card__title">3 спринт: Обходные стратегии</h2>
-        <div class="image__block">
+        <div class="card__img-wrapper">
+          <span class="card__img-label">&lt;support&gt;</span>
           <img src="./images/task.png" alt="мысли человека" class="image contrast-filter" >
         </div>
         <div class="card__content">
@@ -319,7 +325,7 @@
             Каждый раз, когда садился на верстку, я смотрел на задачу под разным углом! Новый день - новая реализация. Меня самого это жутко бесило, что я не могу порой определиться с подходом. В этом я стараюсь регулярно почитывать свой поток в пачке, которые очень классные идеи высказывают.
           </p>
           <div class="buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -348,7 +354,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -356,7 +362,8 @@
       </article>
       <article class="card">
         <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
-        <div class="image__block">
+        <div class="card__img-wrapper">
+          <span class="card__img-label">&lt;lifes-style: none;&gt;</span>
           <img src="./images/koncentra.jpg" alt="концентрация человека" class="image saturate-filter" >
         </div>
         <div class="card__content">
@@ -371,7 +378,7 @@
             Моя концентрация - моя семья. Постоянно кажется, что я уйду в отпуск, а там я все переделаю - это главная ошибка. Я только усугублял ситуацию... Воспитать привычку учиться - вот ключ к успеху, и не только в Яндексе.
           </p>
           <div class="buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -400,7 +407,7 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -408,7 +415,8 @@
       </article>
       <article class="card">
         <h2 class="card__title">«Сейчас я здесь»</h2>
-        <div class="image__block">
+        <div class="card__img-wrapper">
+          <span class="card__img-label">&lt;experience&gt;</span>
           <img src="./images/guru.jpg" alt="летающий дед" class="image rgb-shift-filter" >
         </div>
         <div class="card__content">
@@ -424,7 +432,7 @@
             Я не считаю, что знаю много о верстке! Я многое не попробовал, учёба идет слишком интенсивно. Порой я думаю, что у меня синдром самозванца, порой я думаю, а где мне эти знания понадобятся и если я не нахожу их, то информация в памяти остается совсем чуть-чуть.
           </p>
           <div class="buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg
                 class="like-icon"
                 width="39"
@@ -453,17 +461,16 @@
                 />
               </svg>
             </button>
-            <button class="button card__like-button">
+            <button type="button" class="button card__like-button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </div>
       </article>
-    </main>
 
-    <footer class="footer">
+          <footer class="footer">
       <button
-        class="button footer-button"
+        class="button footer-button flex-container"
         type="button"
         onclick="window['dialog-id'].showModal();"
         aria-controls="dialog-id"
@@ -476,6 +483,8 @@
       </button>
     </footer>
 
+    </main>
+
     <dialog id="dialog-id" class="dialog">
       <div class="dialog__info">
         <svg class="floppy-image" viewBox="0 0 40 40">
@@ -487,7 +496,7 @@
 
       <form method="dialog">
         <button
-          class="button dialog-button"
+          class="button dialog-button flex-container"
           type="submit"
         >
           <span class="button__text">OK</span>

@@ -1,14 +1,16 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
     --accent-color: #00cc14;
-    --card-background-color: #000;
-    --text-stroke-color: #000;
+    --card-background-color: #000000;
+    --text-stroke-color: #000000;
     --button-text-color: #00cc14;
+    --text-color: #000000;
+    --color-white: #ffffff;
   
     --global-font: "Inter-Variable", sans-serif;
-    --custom-font: "PressStart2P-Regular", fantasy;
-    --font-weight-title: 785;
-    --font-weight-text: 465;
+    --custom-font: "PressStart2P", fantasy;
+    --font-weight-title: 700;
+    --page-main-font-weight: 400;
   
     --page-section-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
     --logotip-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);

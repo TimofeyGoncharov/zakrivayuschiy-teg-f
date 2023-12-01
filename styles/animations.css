@@ -59,6 +59,7 @@
   .like-icon {
     transform-origin: center;
     cursor: pointer;
+    display: block;
   }
   
   .like-icon .sparks {
