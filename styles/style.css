@@ -147,14 +147,10 @@ main {
   line-height: normal;
   text-transform: uppercase;
   text-shadow: 0 0 1px var(--color-white, #ffffff);
-  inset-inline-end: 13px;
+  inset-inline-end: 24px;
   inset-block-start: 24px;
   mix-blend-mode: hard-light;
 }
-
-/* .image__block { 
-  position: relative;
-} */
 
 .image {
   display: block;
@@ -181,12 +177,12 @@ main {
 .buttons {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 7px;
 }
 
 .card__icon-button {
   min-height: 36px;
-  border: none;
+  border: 2px solid transparent;
   padding: 0;
   background: none;
   cursor: pointer;
@@ -205,14 +201,15 @@ main {
   position: relative;
   border: 2px solid var(--accent-color);
   font-family: var(--custom-font), fantasy;
+  background: var(--page-background-color, #ffffff);
   transition: box-shadow 0.3s ease;
-  background: none;
   cursor: pointer;
+  z-index: 1;
 }
 
 .card__like-button {
-  width: 128px;
-  min-height: 35px;
+  min-block-size: 38px;
+  min-inline-size: 130px;
 }
 
 .button .button__text {
@@ -233,11 +230,15 @@ main {
 .button::before {
   content: "";
   position: absolute;
-  top: 0;
+  /* top: 0;
   left: 0;
   width: 0;
-  height: 100%;
+  height: 100%; */
+  inset: 0;
+  z-index: -1;
+  background: var(--text-color, #000000);
   transition: transform 0.5s ease-in-out;
+  transform-origin: left;
   transform: scaleX(0);
 }
 
@@ -248,7 +249,7 @@ main {
 .footer {
   display: flex;
   justify-content: center;
-  padding: 52px 32.5px 100px 32.5px;
+  padding: 47px 33.5px 100px 32.5px;
 }
 
 .footer-button {
@@ -316,6 +317,7 @@ main {
   height: 38px;
   padding: 9px 17px;
   color: var(--accent-color);
+  text-transform: uppercase;
 }
 
 .blur-filter {
@@ -384,10 +386,6 @@ main {
   .floppy-image {
     width: 21px;
     height: 21px;
-  }
-
-  .footer-button .button__text {
-    letter-spacing: 0;
   }
 
   .dialog[open] {

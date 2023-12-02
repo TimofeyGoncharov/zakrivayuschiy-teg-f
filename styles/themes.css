@@ -10,9 +10,11 @@
     --card-background-color: #000;
     --text-stroke-color: #000;
     --button-text-color: #00cc14;
+    --text-color: var(--accent-color, #00cc14);
+    --page-background-color: var(--card-background-color, #000000);
   
-    --font-weight-title: 700;
-    --font-weight-text: 400;
+    --font-weight-title: 785;
+    --font-weight-text: 465;
   
     --bg-gradient-color-from: #007f0c;
     --bg-gradient-color-to: #004306;
@@ -38,9 +40,11 @@
     --card-background-color: #fff;
     --text-stroke-color: #fff;
     --button-text-color: #fff;
+    --text-color: var(--accent-color, #000000);
+    --page-background-color: var(--card-background-color, #ffffff);
   
-    --font-weight-title: 700;
-    --font-weight-text: 400;
+    --font-weight-title: 785;
+    --font-weight-text: 465;
   
     --bg-gradient-color-from: #e7e7e7;
     --bg-gradient-color-to: #1a1a1a;
@@ -69,6 +73,8 @@
       --card-background-color: #fff;
       --text-stroke-color: #fff;
       --button-text-color: #fff;
+      --text-color: var(--accent-color, #000000);
+      --page-background-color: var(--card-background-color, #ffffff);
   
       --font-weight-title: 700;
       --font-weight-text: 400;
