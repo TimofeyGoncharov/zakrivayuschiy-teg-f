@@ -355,7 +355,7 @@ main:not(:last-child) {
   filter: hue-rotate(200deg);
 }
 
-@media (width <= 375px) {
+@media (width <= 376px) {
   .page {
     width: 100%;
   }
