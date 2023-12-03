@@ -43,8 +43,8 @@
     --text-color: var(--accent-color, #000000);
     --page-background-color: var(--card-background-color, #ffffff);
   
-    --font-weight-title: 785;
-    --font-weight-text: 465;
+    --font-weight-title: 700;
+    --font-weight-text: 400;
   
     --bg-gradient-color-from: #e7e7e7;
     --bg-gradient-color-to: #1a1a1a;

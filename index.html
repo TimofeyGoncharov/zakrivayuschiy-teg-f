@@ -62,7 +62,7 @@
           </p>
           <p class="text">Яндекс Практикум, для меня всегда был маленькой мечтой... Я очень хотел попасть на это обучение... Знаете как нелегко быть в разработке, писать серверную часть приложения и оказаться на другой стороне WEBa? Жутко некомфортно! Оооооох, но я решился на это! Раньше я думал, что хуже асемблера ничего нет! Я ошибался!) Ворчащий бекендер во фронтенде - это ужасно! Я каждый день думал бросить этот курс, а это только вводная часть была! Благодаря хорошим и добрым кураторам(таким как ХАЗ), классному коллективу, желающему не "вопреки", а "благодаря" идти дальше, я брал себя в руки, особенно, когда в пачке по 20+ сообщений "А как это сделать?"</p>
           <div class="buttons">
-            <button type="button" aria-hidden="true" class="card__icon-button">
+            <button type="button" aria-hidden="true" class="card__icon-button outline-transition">
               <svg
                 class="like-icon"
                 width="39"
@@ -115,7 +115,7 @@
             1 проект, сейчас понимаю насколько там было просто, но как же я был в гневе от ревью! Антон Щепетков... это мой ревьюер, он такой красавчик, в одном предложении говорит какой я молодец и обсирает одновременно! Спасибо Антон тебе большое, ты крутой!!! 
           </p>
           <div class="buttons">
-            <button type="button" class="card__icon-button">
+            <button type="button" class="card__icon-button outline-transition">
               <svg
                 class="like-icon"
                 width="39"
@@ -166,7 +166,7 @@
             Я постоянно чувствую, будто надо догонять и догонять всех, и эта мысль постоянно меня глушила. Порой какие-то темы прям изучаю взахлеб, кругозор очень сильно увеличивается, не хочется уходить от монитора вообще читать и пытаться, пытаться и читать и так далее. Но выпасть из бытовой жизни нельзя и ты постоянно ждешь, когда ты сядешь за клаивиатуру и монитор. А потом? Приходит понимание - одного монитора мало!!!
           </p>
           <div class="buttons">
-            <button type="button" class="card__icon-button">
+            <button type="button" class="card__icon-button outline-transition">
               <svg
                 class="like-icon"
                 width="39"
@@ -219,7 +219,7 @@
             Раньше, когда дело доходило до фронта понимал, надо сделать хоть как то, использовал медиа запросы на все!!! А сейчас когда вижу код, который писал 1, 2, 3 года назад становится стыдно (даже не хочется вспоминать что было 5 лет назад). А сейчас понимаю, что я без flex, grid ничего и делать не буду, этого мне хватает, чтобы сделать все!
           </p>
           <div class="buttons">
-            <button type="button" class="card__icon-button">
+            <button type="button" class="card__icon-button outline-transition">
               <svg
                 class="like-icon"
                 width="39"
@@ -273,7 +273,7 @@
             Сильно споткнулся я, на макет "сложно сосредоточиться". Больше всех меня постоянно поддерживала мой любимая супруга, если бы не она, я вообще бы был никто, но каждый макет она выслушивала и мотивировала меня.
           </p>
           <div class="buttons">
-            <button type="button" class="card__icon-button">
+            <button type="button" class="card__icon-button outline-transition">
               <svg
                 class="like-icon"
                 width="39"
@@ -324,7 +324,7 @@
             Каждый раз, когда садился на верстку, я смотрел на задачу под разным углом! Новый день - новая реализация. Меня самого это жутко бесило, что я не могу порой определиться с подходом. В этом я стараюсь регулярно почитывать свой поток в пачке, которые очень классные идеи высказывают.
           </p>
           <div class="buttons">
-            <button type="button" class="card__icon-button">
+            <button type="button" class="card__icon-button outline-transition">
               <svg
                 class="like-icon"
                 width="39"
@@ -377,7 +377,7 @@
             Моя концентрация - моя семья. Постоянно кажется, что я уйду в отпуск, а там я все переделаю - это главная ошибка. Я только усугублял ситуацию... Воспитать привычку учиться - вот ключ к успеху, и не только в Яндексе.
           </p>
           <div class="buttons">
-            <button type="button" class="card__icon-button">
+            <button type="button" class="card__icon-button outline-transition">
               <svg
                 class="like-icon"
                 width="39"
@@ -431,7 +431,7 @@
             Я не считаю, что знаю много о верстке! Я многое не попробовал, учёба идет слишком интенсивно. Порой я думаю, что у меня синдром самозванца, порой я думаю, а где мне эти знания понадобятся и если я не нахожу их, то информация в памяти остается совсем чуть-чуть.
           </p>
           <div class="buttons">
-            <button type="button" class="card__icon-button">
+            <button type="button" class="card__icon-button outline-transition">
               <svg
                 class="like-icon"
                 width="39"
@@ -466,22 +466,21 @@
           </div>
         </div>
       </article>
+      <article class="footer">
+          <button
+            class="button footer-button flex-container"
+            type="button"
+            onclick="window['dialog-id'].showModal();"
+            aria-controls="dialog-id"
+          >
+            <svg class="floppy-image" viewBox="0 0 40 40">
+              <use href="./svg/floppy.svg#floppy"></use>
+            </svg>
+    
+            <span class="button__text">Сохранить на память</span>
+          </button>
+      </article>
     </main>
-
-    <div class="footer">
-      <button
-        class="button footer-button flex-container"
-        type="button"
-        onclick="window['dialog-id'].showModal();"
-        aria-controls="dialog-id"
-      >
-        <svg class="floppy-image" viewBox="0 0 40 40">
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-
-        <span class="button__text">Сохранить на память</span>
-      </button>
-    </div>
 
     <dialog id="dialog-id" class="dialog">
       <div class="dialog__info">

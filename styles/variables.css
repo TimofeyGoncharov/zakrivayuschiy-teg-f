@@ -8,10 +8,10 @@
     --color-white: #ffffff;
     --page-background-color: var(--card-background-color, #ffffff);
   
-    --global-font: "Inter-Variable", sans-serif;
+    --global-font: "Inter", sans-serif;
     --custom-font: "PressStart2P", fantasy;
     --font-weight-title: 785;
-    --page-main-font-weight: 465;
+    --font-weight-text: 465;
   
     --page-section-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
     --logotip-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);

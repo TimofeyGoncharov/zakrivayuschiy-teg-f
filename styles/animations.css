@@ -23,19 +23,6 @@
     }
   }
   
-  @keyframes left-right-underline {
-    from {
-      color: var(--accent-color);
-      opacity: 0.6;
-      width: 0;
-    }
-    to {
-      color: var(--accent-color);
-      opacity: 0.6;
-      width: 100%;
-    }
-  }
-  
   @keyframes change-opacity {
     from {
       opacity: 0;
@@ -53,6 +40,16 @@
   
     to {
       scale: 1.1;
+    }
+  }
+
+  @keyframes arrow {
+    /* Safari fix */
+    from {
+      transform: translate(0);
+    }
+    to {
+      transform: translate(4px);
     }
   }
   
