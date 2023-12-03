@@ -121,6 +121,10 @@ main {
   padding-block-start: 99px;
 }
 
+main:not(:last-child) {
+  gap: 50px;
+}
+
 .card {
   border: 2px solid var(--accent-color);
   color: var(--accent-color);
@@ -170,7 +174,7 @@ main {
 
 .text {
   font-variation-settings: "wght" var(--font-weight-text, 400);
-  font-size: 1.21rem;
+  font-size: 18px;
   line-height: 110%;
 }
 
@@ -394,6 +398,13 @@ main {
 
   .dialog[open] {
     padding: 30px;
+  }
+}
+
+@media (width > 1441px) {
+  .footer-button {
+    min-height: 40px;
+    padding: 15px;
   }
 }
 
